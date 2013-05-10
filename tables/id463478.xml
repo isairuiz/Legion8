@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table version="0.000000" name="wanterVolcano" numRows="3" numCols="10" flags="9" tableType="0" tableSkew="0">
+    <rows>
+        <row id="0" name="waterRange1"/>
+        <row id="1" name="waterRange2"/>
+        <row id="2" name="waterRange3"/>
+    </rows>
+    <columns>
+        <column id="0" name="" type="2" readonly="0">0,0,0</column>
+        <column id="1" name="" type="2" readonly="0">0,0,0</column>
+        <column id="2" name="" type="2" readonly="0">0,0,0</column>
+        <column id="3" name="" type="2" readonly="0">0,0,0</column>
+        <column id="4" name="" type="2" readonly="0">0,0,0</column>
+        <column id="5" name="" type="2" readonly="0">0,0,0</column>
+        <column id="6" name="" type="2" readonly="0">0,0,0</column>
+        <column id="7" name="" type="2" readonly="0">0,0,0</column>
+        <column id="8" name="" type="2" readonly="0">0,0,0</column>
+        <column id="9" name="" type="2" readonly="0">0,0,0</column>
+    </columns>
+</table>
+

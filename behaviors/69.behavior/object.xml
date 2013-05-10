@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id365230" class="ChangeAttributeAction" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Change Attribute - Set Game Logic for Thumbstick 1 Base Radius</text>
+    <text id="bundleName">ChangeAttribute.behavior</text>
+    <text id="targetAttribute">game.attributes.id627103</text>
+    <text id="RHS">
+      <expression>
+        <reference keypath="self.attributes.size.width" />
+        <string>/2</string>
+      </expression>
+    </text>
+  </attributes>
+</behavior>

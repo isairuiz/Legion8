@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id958422">
+  <layers>
+    <layer id="id720458">
+      <actors>
+        <actor id="id236768" prototype="id316028">
+          <attributes>
+            <point id="position">
+              <real id="x">241.5</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">481</real>
+              <real id="height">319</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors />
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id994554" prototype="id597268">
+          <attributes>
+            <point id="position">
+              <real id="x">393.5</real>
+              <real id="y">77</real>
+            </point>
+            <size id="size">
+              <real id="width">98</real>
+              <real id="height">95</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id778553" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">SEP UP</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id408791" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">0</index>
+                    <real id="interval">1.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id146192" class="InterpolateBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Interpolate</text>
+                        <text id="bundleName">Interpolate.behavior</text>
+                        <boolean id="runToCompletion">true</boolean>
+                        <text id="targetAttribute">self.attributes.color.alpha</text>
+                        <real id="finalValue">1</real>
+                        <real id="duration">0.3</real>
+                        <index id="easing">2</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id289551" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id992373" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id925877" class="ChangeSceneAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Scene</text>
+                        <text id="bundleName">ChangeScene.behavior</text>
+                        <text id="sceneKey">id224917</text>
+                        <boolean id="enableAdvertisement">false</boolean>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id898581" prototype="id387753">
+          <attributes>
+            <point id="position">
+              <real id="x">279.5</real>
+              <real id="y">77</real>
+            </point>
+            <size id="size">
+              <real id="width">124</real>
+              <real id="height">95</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id240915" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">RANKING</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id865630" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">0</index>
+                    <real id="interval">1.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id124362" class="InterpolateBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Interpolate</text>
+                        <text id="bundleName">Interpolate.behavior</text>
+                        <boolean id="runToCompletion">true</boolean>
+                        <text id="targetAttribute">self.attributes.color.alpha</text>
+                        <real id="finalValue">1</real>
+                        <real id="duration">0.3</real>
+                        <index id="easing">2</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id798732" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">RANKIG ACCION</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id513453" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id790256" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">0.5</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id516019" class="SpawnAction" enabled="true">
+                          <attributes>
+                            <text id="name">Spawn Actor</text>
+                            <text id="bundleName">Spawn.behavior</text>
+                            <text id="prototypeKey">id158535</text>
+                            <angle id="direction">0</angle>
+                            <index id="directionSpace">1</index>
+                            <real id="x">240</real>
+                            <real id="y">160</real>
+                            <index id="positionSpace">1</index>
+                            <index id="layerOrder">2</index>
+                          </attributes>
+                        </behavior>
+                        <behavior id="id915103" class="TimerBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Timer</text>
+                            <text id="bundleName">Timer.behavior</text>
+                            <index id="timerType">1</index>
+                            <real id="interval">1</real>
+                            <boolean id="runToCompletion">true</boolean>
+                          </attributes>
+                          <behaviors>
+                            <behavior id="id637975" class="ChangeSceneAction" enabled="true">
+                              <attributes>
+                                <text id="name">Change Scene</text>
+                                <text id="bundleName">ChangeScene.behavior</text>
+                                <text id="sceneKey">id639982</text>
+                                <boolean id="enableAdvertisement">false</boolean>
+                              </attributes>
+                            </behavior>
+                          </behaviors>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id118941" prototype="id876581">
+          <attributes>
+            <point id="position">
+              <real id="x">169.5</real>
+              <real id="y">75</real>
+            </point>
+            <size id="size">
+              <real id="width">77</real>
+              <real id="height">90</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="alpha">0</real>
+            </color>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id422430" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">HELP</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id855009" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">0</index>
+                    <real id="interval">1.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id654696" class="InterpolateBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Interpolate</text>
+                        <text id="bundleName">Interpolate.behavior</text>
+                        <boolean id="runToCompletion">true</boolean>
+                        <text id="targetAttribute">self.attributes.color.alpha</text>
+                        <real id="finalValue">1</real>
+                        <real id="duration">0.3</real>
+                        <index id="easing">2</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id601582" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">HELP ACCION</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id704248" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id943484" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">0.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id933520" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id158535</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">240</real>
+                        <real id="y">160</real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">2</index>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id804786" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id267303" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id153977</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id158591" prototype="id257000">
+          <attributes>
+            <point id="position">
+              <real id="x">78.5</real>
+              <real id="y">71</real>
+            </point>
+            <size id="size">
+              <real id="width">82</real>
+              <real id="height">84</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="alpha">0</real>
+            </color>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id398887" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animacion de Iconos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id871339" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">0</index>
+                    <real id="interval">1.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id196863" class="InterpolateBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Interpolate</text>
+                        <text id="bundleName">Interpolate.behavior</text>
+                        <boolean id="runToCompletion">true</boolean>
+                        <text id="targetAttribute">self.attributes.color.alpha</text>
+                        <real id="finalValue">1</real>
+                        <real id="duration">0.3</real>
+                        <index id="easing">2</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id126283" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">PLAY ACCION</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id770173" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id940596" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">0.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id937941" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id158535</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">240</real>
+                        <real id="y">160</real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">2</index>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id577576" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">0.3</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id853063" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id122014</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id229031" prototype="id497711">
+          <attributes>
+            <point id="position">
+              <real id="x">236.905405405405</real>
+              <real id="y">154.664179104477</real>
+            </point>
+            <size id="size">
+              <real id="width">16</real>
+              <real id="height">11</real>
+            </size>
+            <angle id="rotation">-1.77635683940025E-14</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id498445" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">LOGO</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id770053" class="InterpolateBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Interpolate</text>
+                    <text id="bundleName">Interpolate.behavior</text>
+                    <boolean id="runToCompletion">true</boolean>
+                    <text id="targetAttribute">self.attributes.size.height</text>
+                    <real id="finalValue">185</real>
+                    <real id="duration">0.7</real>
+                    <index id="easing">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id102798" class="InterpolateBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Interpolate</text>
+                    <text id="bundleName">Interpolate.behavior</text>
+                    <boolean id="runToCompletion">true</boolean>
+                    <text id="targetAttribute">self.attributes.size.width</text>
+                    <real id="finalValue">268</real>
+                    <real id="duration">0.7</real>
+                    <index id="easing">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id568163" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">0</index>
+                    <real id="interval">0.7</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id116341" class="InterpolateBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Interpolate</text>
+                        <text id="bundleName">Interpolate.behavior</text>
+                        <boolean id="runToCompletion">true</boolean>
+                        <text id="targetAttribute">self.attributes.position.y</text>
+                        <real id="finalValue">224</real>
+                        <real id="duration">0.7</real>
+                        <index id="easing">0</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes>
+                <real id="density">0</real>
+                <real id="friction">0</real>
+                <real id="restitution">0</real>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Menu</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0.00392156862745098</real>
+      <real id="green">0.207843137254902</real>
+      <real id="blue">0.274509803921569</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">480</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">407.25</real>
+        <real id="height">268.9375</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>

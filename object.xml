@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game GSCVersion="0.10.0" PGFVersion="0.19" title="Legion">
+  <tags />
+  <resolutionIndependence>1</resolutionIndependence>
+  <instructions>Add game instructions here.</instructions>
+  <resolution>0</resolution>
+  <longDescription>A simple game.</longDescription>
+  <prototypes>
+    <actor id="id339277" />
+    <actor id="id722731" />
+    <actor id="id190829" />
+    <actor id="id839911" />
+    <actor id="id610421" />
+    <actor id="id479143" />
+    <actor id="id394496" />
+    <actor id="id373284" />
+    <actor id="id114950" />
+    <actor id="id746853" />
+    <actor id="id812823" />
+    <actor id="id310825" />
+    <actor id="id169511" />
+    <actor id="id943085" />
+    <actor id="id641245" />
+    <actor id="id502700" />
+    <actor id="id404975" />
+    <actor id="id243721" />
+    <actor id="id247890" />
+    <actor id="id134660" />
+    <actor id="id918078" />
+    <actor id="id832697" />
+    <actor id="id724301" />
+    <actor id="id104665" />
+    <actor id="id985535" />
+    <actor id="id497711" />
+    <actor id="id257000" />
+    <actor id="id876581" />
+    <actor id="id387753" />
+    <actor id="id597268" />
+    <actor id="id316028" />
+    <actor id="id115864" />
+    <actor id="id409184" />
+    <actor id="id421027" />
+    <actor id="id395975" />
+    <actor id="id995015" />
+    <actor id="id788820" />
+    <actor id="id948267" />
+    <actor id="id259258" />
+    <actor id="id202581" />
+    <actor id="id400059" />
+    <actor id="id945586" />
+    <actor id="id955479" />
+    <actor id="id475976" />
+    <actor id="id943147" />
+    <actor id="id160612" />
+    <actor id="id168483" />
+    <actor id="id293892" />
+    <actor id="id578686" />
+    <actor id="id289750" />
+    <actor id="id866528" />
+    <actor id="id863496" />
+    <actor id="id454849" />
+    <actor id="id342705" />
+    <actor id="id435283" />
+    <actor id="id863941" />
+    <actor id="id165512" />
+    <actor id="id365042" />
+    <actor id="id490952" />
+    <actor id="id638622" />
+    <actor id="id963111" />
+    <actor id="id750623" />
+    <actor id="id170353" />
+    <actor id="id299303" />
+    <actor id="id158535" />
+    <actor id="id123927" />
+    <actor id="id525431" />
+    <actor id="id401322" />
+    <actor id="id872427" />
+    <actor id="id699601" />
+    <actor id="id357952" />
+    <actor id="id925802" />
+    <actor id="id336849" />
+    <actor id="id949067" />
+    <actor id="id607559" />
+    <actor id="id754892" />
+    <actor id="id608315" />
+    <actor id="id422774" />
+    <actor id="id732333" />
+    <actor id="id320504" />
+    <actor id="id754297" />
+    <actor id="id430656" />
+    <actor id="id199092" />
+    <actor id="id339220" />
+    <actor id="id793194" />
+    <actor id="id299750" />
+    <actor id="id964777" />
+    <actor id="id383345" />
+    <actor id="id647970" />
+    <actor id="id311370" />
+    <actor id="id738926" />
+    <actor id="id916745" />
+  </prototypes>
+  <plugins />
+  <scenes>
+    <scene id="id146042" />
+    <scene id="id465378" />
+    <scene id="id958422" />
+    <scene id="id122014" />
+    <scene id="id850451" />
+    <scene id="id551418" />
+    <scene id="id272047" />
+    <scene id="id339896" />
+    <scene id="id815926" />
+    <scene id="id991749" />
+    <scene id="id505091" />
+    <scene id="id357322" />
+    <scene id="id135539" />
+    <scene id="id957345" />
+    <scene id="id224917" />
+    <scene id="id280687" />
+    <scene id="id303133" />
+    <scene id="id981698" />
+    <scene id="id993872" />
+    <scene id="id402408" />
+    <scene id="id493531" />
+    <scene id="id338672" />
+    <scene id="id263760" />
+    <scene id="id706743" />
+    <scene id="id121620" />
+    <scene id="id290251" />
+    <scene id="id976768" />
+    <scene id="id153977" />
+    <scene id="id639982" />
+    <scene id="id484937" />
+    <scene id="id890794" />
+    <scene id="id308166" />
+  </scenes>
+  <attributes>
+    <text id="name">Inicio</text>
+    <real id="time">150</real>
+    <size id="displaySize">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <text id="actorTags">All	Mundos	Menu	Paredes	Control	Legion	Objetos de Scenario	Generador	Enemigo	Intro</text>
+    <boolean id="id653837" name="MovArriba">false</boolean>
+    <boolean id="id485703" name="MovAbajo">false</boolean>
+    <boolean id="id751226" name="Movizquierda">false</boolean>
+    <boolean id="id287382" name="MovDerecha">false</boolean>
+    <boolean id="id531199" name="Left Pressed">false</boolean>
+    <boolean id="id468037" name="Right Pressed">false</boolean>
+    <boolean id="id901403" name="Up Pressed">false</boolean>
+    <boolean id="id790869" name="Down Pressed">false</boolean>
+    <boolean id="id297243" name="Dial Pressed">false</boolean>
+    <real id="id930721" name="Dial Radius">0</real>
+    <integer id="id337834" name="Counter">0</integer>
+    <boolean id="id373683" name="ButtonsActive">true</boolean>
+    <boolean id="id219582" name="BotomActivo">false</boolean>
+    <boolean id="id794228" name="BotomActivoB">true</boolean>
+    <integer id="id495472" name="Scord">0</integer>
+    <table id="id967673" name="rangesVolcano">Table 1</table>
+    <real id="id959741" name="CamX">0</real>
+    <real id="id291485" name="CamY">0</real>
+    <real id="id199099" name="Ednax">0</real>
+    <real id="id973908" name="Ednay">0</real>
+    <angle id="id410878" name="BarraAgua">0</angle>
+    <real id="id833519" name="VolcanoX">0</real>
+    <real id="id904344" name="VolcanoY">0</real>
+    <real id="id552122" name="PlayerX">0</real>
+    <real id="id588812" name="PlayerY">0</real>
+    <integer id="id443209" name="Random">0</integer>
+    <integer id="id651044" name="Vidas">3</integer>
+    <integer id="id383431" name="Misil">5</integer>
+    <real id="id183158" name="TouchX">0</real>
+    <real id="id116276" name="RelX">0</real>
+    <integer id="id530197" name="unlock">1</integer>
+    <integer id="id443343" name="SActor">0</integer>
+    <integer id="id835497" name="ActorElec">0</integer>
+    <integer id="id697075" name="Music">0</integer>
+    <real id="id141233" name="Medallas">0</real>
+    <integer id="id950955" name="EnemigoE">100</integer>
+    <real id="id699995" name="Base 1 X">0</real>
+    <real id="id628099" name="Base 1 Y">0</real>
+    <real id="id975494" name="Base 2 X">0</real>
+    <real id="id429465" name="Base 2 Y">0</real>
+    <real id="id627103" name="Base 1 Radius">0</real>
+    <real id="id420666" name="Base 2 Radius">0</real>
+    <real id="id343851" name="Angle 1">0</real>
+    <real id="id805815" name="Angle 2">0</real>
+    <real id="id737732" name="Distance From Center 1">0</real>
+    <real id="id371849" name="Distance From Center 2">0</real>
+    <boolean id="id669834" name="Stick 1 Active">false</boolean>
+    <boolean id="id404764" name="Stick 2 Active">false</boolean>
+    <boolean id="id288229" name="Button 1 Pressed">false</boolean>
+    <boolean id="id173134" name="Button 2 Pressed">false</boolean>
+    <boolean id="id700593" name="ControlVisibiltyOn">true</boolean>
+    <boolean id="id555469" name="Superado">false</boolean>
+    <integer id="id641040" name="getLevel">0</integer>
+    <integer id="id437138" name="scoreTemp">0</integer>
+    <table id="id463478" name="wanterVolcano">Table 1</table>
+    <real id="id699709" name="EnemyX">0</real>
+    <real id="id598000" name="EnemyY">0</real>
+    <table id="id678078" name="worldMedals">Table 1</table>
+    <integer id="id907474" name="getWorld">0</integer>
+  </attributes>
+</game>

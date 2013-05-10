@@ -1,0 +1,3149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id991749">
+  <layers>
+    <layer id="id485242">
+      <actors>
+        <actor id="id360185" prototype="id202581">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">480</real>
+              <real id="height">322</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">fondo planetas</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors />
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id247560" prototype="id995015">
+          <attributes>
+            <point id="position">
+              <real id="x">426.96052631579</real>
+              <real id="y">162.135135135135</real>
+            </point>
+            <size id="size">
+              <real id="width">86.9210526315783</real>
+              <real id="height">89.2702702702696</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id523793" prototype="id395975">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">169.540697674419</real>
+            </point>
+            <size id="size">
+              <real id="width">135.151219512195</real>
+              <real id="height">161.081395348837</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id377977" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id949307" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id218568" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id224917</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes>
+                <enumeration id="collisionShape">1</enumeration>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id196422" prototype="id170353">
+          <attributes>
+            <point id="position">
+              <real id="x">395</real>
+              <real id="y">168</real>
+            </point>
+            <size id="size">
+              <real id="width">166</real>
+              <real id="height">240</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id591713" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id713693" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id683492" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">next</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+                <boolean id="visible">false</boolean>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id625803" prototype="id497711">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">265</real>
+            </point>
+            <size id="size">
+              <real id="width">161</real>
+              <real id="height">101</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id742434" prototype="id578686">
+          <attributes>
+            <point id="position">
+              <real id="x">239.5</real>
+              <real id="y">23</real>
+            </point>
+            <size id="size">
+              <real id="width">480</real>
+              <real id="height">50</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image" />
+            <color id="color">
+              <real id="alpha">0.5</real>
+            </color>
+            <text id="name">Banner</text>
+            <text id="tags" />
+          </attributes>
+          <behaviors />
+          <aspects>
+            <graphics>
+              <attributes>
+                <enumeration id="blendingMode">0</enumeration>
+                <enumeration id="horizontalWrap">0</enumeration>
+                <enumeration id="horizontalAnchor">0</enumeration>
+                <enumeration id="verticalAnchor">0</enumeration>
+                <enumeration id="verticalWrap">2</enumeration>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id355016" prototype="id475976">
+          <attributes>
+            <point id="position">
+              <real id="x">80</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">67.2592592592593</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id388578" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">150</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">01</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id198520" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id912444" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id126535" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id155192" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id455653" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: Se cambia el valor de getLevel al level correspondiente</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id566364" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id529594" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id641040</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="self.attributes.id714366" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id810655" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id277297" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id420456" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id933739" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id151743" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id103476" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id414239" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id693215" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Puerta</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">0.5</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id935694" class="SpawnAction" enabled="true">
+                          <attributes>
+                            <text id="name">Spawn Actor</text>
+                            <text id="bundleName">Spawn.behavior</text>
+                            <text id="prototypeKey">id158535</text>
+                            <angle id="direction">0</angle>
+                            <index id="directionSpace">1</index>
+                            <real id="x">240</real>
+                            <real id="y">160</real>
+                            <index id="positionSpace">1</index>
+                            <index id="layerOrder">2</index>
+                          </attributes>
+                        </behavior>
+                        <behavior id="id747041" class="TimerBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Timer</text>
+                            <text id="bundleName">Timer.behavior</text>
+                            <index id="timerType">1</index>
+                            <real id="interval">0.3</real>
+                            <boolean id="runToCompletion">true</boolean>
+                          </attributes>
+                          <behaviors>
+                            <behavior id="id729746" class="ChangeSceneAction" enabled="true">
+                              <attributes>
+                                <text id="name">Change Scene</text>
+                                <text id="bundleName">ChangeScene.behavior</text>
+                                <text id="sceneKey">id224917</text>
+                                <boolean id="enableAdvertisement">true</boolean>
+                              </attributes>
+                            </behavior>
+                          </behaviors>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id908664" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id752393" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&gt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id263427" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">01</image>
+                  </attributes>
+                </behavior>
+                <behavior id="id772248" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id941924" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id555469</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="boolean">
+                        <attributes>
+                          <index id="RHS">1</index>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id898387" class="RuleBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Validaciones de Medallas </text>
+                        <text id="bundleName">Rule.behavior</text>
+                        <real id="compoundConditionKind">0</real>
+                      </attributes>
+                      <conditions>
+                        <condition id="id270154" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                          <attributes>
+                            <index id="conditionType">1</index>
+                            <text id="subjectAttribute">game.attributes.id141233</text>
+                            <text id="name">default name</text>
+                          </attributes>
+                          <predicate type="number">
+                            <attributes>
+                              <text id="operator">=</text>
+                              <real id="RHS">1</real>
+                            </attributes>
+                          </predicate>
+                        </condition>
+                      </conditions>
+                      <behaviors>
+                        <behavior id="id356253" class="ChangeImageAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Image</text>
+                            <text id="bundleName">ChangeImage.behavior</text>
+                            <image id="image">01BRONCE</image>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                      <elseBehaviors>
+                        <behavior id="id617013" class="RuleBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Rule</text>
+                            <text id="bundleName">Rule.behavior</text>
+                            <real id="compoundConditionKind">0</real>
+                          </attributes>
+                          <conditions>
+                            <condition id="id693721" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                              <attributes>
+                                <index id="conditionType">1</index>
+                                <text id="subjectAttribute">game.attributes.id141233</text>
+                                <text id="name">default name</text>
+                              </attributes>
+                              <predicate type="number">
+                                <attributes>
+                                  <text id="operator">=</text>
+                                  <real id="RHS">2</real>
+                                </attributes>
+                              </predicate>
+                            </condition>
+                          </conditions>
+                          <behaviors>
+                            <behavior id="id227206" class="ChangeImageAction" enabled="true">
+                              <attributes>
+                                <text id="name">Change Image</text>
+                                <text id="bundleName">ChangeImage.behavior</text>
+                                <image id="image">01PLATA</image>
+                              </attributes>
+                            </behavior>
+                          </behaviors>
+                          <elseBehaviors>
+                            <behavior id="id758203" class="RuleBehavior" enabled="true">
+                              <attributes>
+                                <text id="name">Rule</text>
+                                <text id="bundleName">Rule.behavior</text>
+                                <real id="compoundConditionKind">0</real>
+                              </attributes>
+                              <conditions>
+                                <condition id="id409325" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                                  <attributes>
+                                    <index id="conditionType">1</index>
+                                    <text id="subjectAttribute">game.attributes.id141233</text>
+                                    <text id="name">default name</text>
+                                  </attributes>
+                                  <predicate type="number">
+                                    <attributes>
+                                      <text id="operator">=</text>
+                                      <real id="RHS">3</real>
+                                    </attributes>
+                                  </predicate>
+                                </condition>
+                              </conditions>
+                              <behaviors>
+                                <behavior id="id148287" class="ChangeImageAction" enabled="true">
+                                  <attributes>
+                                    <text id="name">Change Image</text>
+                                    <text id="bundleName">ChangeImage.behavior</text>
+                                    <image id="image">01ORO</image>
+                                  </attributes>
+                                </behavior>
+                              </behaviors>
+                            </behavior>
+                          </elseBehaviors>
+                        </behavior>
+                      </elseBehaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id937774" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id287225" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">180</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">02</image>
+            <integer id="id714366" name="Level">2</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id124166" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id702810" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id609766" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id952186" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id167323" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id973963" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id863238" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id109766" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id401178" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id520351" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id365268" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id577293" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id474142" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id648644" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id300011" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id128742" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id303133</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id514675" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id297004" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id751480" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">02</image>
+                  </attributes>
+                </behavior>
+                <behavior id="id469571" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id109487" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id555469</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="boolean">
+                        <attributes>
+                          <index id="RHS">1</index>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id134962" class="RuleBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Validaciones de Medallas </text>
+                        <text id="bundleName">Rule.behavior</text>
+                        <real id="compoundConditionKind">0</real>
+                      </attributes>
+                      <conditions>
+                        <condition id="id164017" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                          <attributes>
+                            <index id="conditionType">1</index>
+                            <text id="subjectAttribute">game.attributes.id141233</text>
+                            <text id="name">default name</text>
+                          </attributes>
+                          <predicate type="number">
+                            <attributes>
+                              <text id="operator">=</text>
+                              <real id="RHS">1</real>
+                            </attributes>
+                          </predicate>
+                        </condition>
+                      </conditions>
+                      <behaviors>
+                        <behavior id="id920522" class="ChangeImageAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Image</text>
+                            <text id="bundleName">ChangeImage.behavior</text>
+                            <image id="image">2bronce-01</image>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                      <elseBehaviors>
+                        <behavior id="id286951" class="RuleBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Rule</text>
+                            <text id="bundleName">Rule.behavior</text>
+                            <real id="compoundConditionKind">0</real>
+                          </attributes>
+                          <conditions>
+                            <condition id="id806111" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                              <attributes>
+                                <index id="conditionType">1</index>
+                                <text id="subjectAttribute">game.attributes.id141233</text>
+                                <text id="name">default name</text>
+                              </attributes>
+                              <predicate type="number">
+                                <attributes>
+                                  <text id="operator">=</text>
+                                  <real id="RHS">2</real>
+                                </attributes>
+                              </predicate>
+                            </condition>
+                          </conditions>
+                          <behaviors>
+                            <behavior id="id801082" class="ChangeImageAction" enabled="true">
+                              <attributes>
+                                <text id="name">Change Image</text>
+                                <text id="bundleName">ChangeImage.behavior</text>
+                                <image id="image">2plata-01</image>
+                              </attributes>
+                            </behavior>
+                          </behaviors>
+                          <elseBehaviors>
+                            <behavior id="id458981" class="RuleBehavior" enabled="true">
+                              <attributes>
+                                <text id="name">Rule</text>
+                                <text id="bundleName">Rule.behavior</text>
+                                <real id="compoundConditionKind">0</real>
+                              </attributes>
+                              <conditions>
+                                <condition id="id950758" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                                  <attributes>
+                                    <index id="conditionType">1</index>
+                                    <text id="subjectAttribute">game.attributes.id141233</text>
+                                    <text id="name">default name</text>
+                                  </attributes>
+                                  <predicate type="number">
+                                    <attributes>
+                                      <text id="operator">=</text>
+                                      <real id="RHS">3</real>
+                                    </attributes>
+                                  </predicate>
+                                </condition>
+                              </conditions>
+                              <behaviors>
+                                <behavior id="id255348" class="ChangeImageAction" enabled="true">
+                                  <attributes>
+                                    <text id="name">Change Image</text>
+                                    <text id="bundleName">ChangeImage.behavior</text>
+                                    <image id="image">2oro-01</image>
+                                  </attributes>
+                                </behavior>
+                              </behaviors>
+                            </behavior>
+                          </elseBehaviors>
+                        </behavior>
+                      </elseBehaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id778785" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id593219" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">210</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">03</image>
+            <integer id="id714366" name="Level">3</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id181642" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id116431" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id660789" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id125713" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id697055" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id889724" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id944640" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id204587" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id307415" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id421922" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id645901" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id506544" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id618517" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id964619" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id180541" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id348621" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id981698</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id732351" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id620645" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id867242" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">03</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id829930" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id813548" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">04</image>
+            <integer id="id714366" name="Level">4</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id825101" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id710618" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id127052" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id944772" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id492822" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id616020" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id195486" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id571622" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id344783" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id659564" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id908116" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id358963" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id482654" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id127988" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id106669" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id843459" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id993872</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id942177" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id473359" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id814005" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">04</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id513977" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id666929" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">270</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">05</image>
+            <integer id="id714366" name="Level">5</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id879688" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id148634" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id342292" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id763091" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id131288" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id680280" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id445142" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id419717" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id788578" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id551121" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id112051" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id965202" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id140906" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id417019" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id311127" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id291953" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id402408</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id980112" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id331134" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id895536" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">05</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id736174" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id403703" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">300</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">06</image>
+            <integer id="id714366" name="Level">6</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id220953" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id553857" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id821638" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id613342" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id171634" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id609821" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id838746" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id666328" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id744650" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id350106" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id475113" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id276987" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id286544" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id466656" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id682409" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id728398" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id493531</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id797385" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id311919" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id501194" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">06</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id851053" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id273555" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">330</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">07</image>
+            <integer id="id714366" name="Level">7</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id823174" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id379168" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id551368" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id760253" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id305783" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id939806" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id355711" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id775686" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id745246" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id117842" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id176596" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id933088" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id125091" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id399593" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id844202" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id962376" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id338672</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id163594" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id914731" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id774704" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">07</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id652061" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id751495" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">360</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">08</image>
+            <integer id="id714366" name="Level">8</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id950878" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id245810" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id491008" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id806680" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id449286" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id213646" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id319597" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id294206" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id891958" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id427094" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id691181" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id318439" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id654255" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id313096" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id459887" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id613191" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id263760</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id638674" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id926989" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id882732" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">08</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id828477" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id450634" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">390</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">09</image>
+            <integer id="id714366" name="Level">9</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id215701" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id164273" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id344977" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id824422" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id440532" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id700936" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id622373" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id471973" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id697022" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id679366" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id817488" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id973104" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id764850" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id237684" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id862834" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id759889" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id551290</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id938290" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id643554" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id957665" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">09</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id341850" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id152999" prototype="id299303">
+          <attributes>
+            <point id="position">
+              <real id="x">420</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">27</real>
+              <real id="height">27</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">010</image>
+            <integer id="id714366" name="Level">10</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id174172" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cargar Datos</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id916217" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id141233</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id141233" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id716789" class="LoadAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Load Attribute</text>
+                    <text id="bundleName">LoadAtribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id530197</text>
+                    <text id="key">
+                      <expression>
+                        <reference keypath="game.attributes.id530197" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id110790" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Cambios</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id846824" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id651291" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="pressed">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id456718" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id183158</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id478489" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id773010" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id616444" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id116276</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.devices.mouse.position.x" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id867229" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id251891" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                      <attributes>
+                        <text id="name">default name</text>
+                        <index id="conditionType">0</index>
+                      </attributes>
+                      <predicate type="touch" conditionType="released">
+                        <attributes />
+                      </predicate>
+                    </condition>
+                    <condition id="id492481" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id116276</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="game.attributes.id183158" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id502852" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id530197</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <reference keypath="self.attributes.id714366" />
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id624049" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">1</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id403934" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id291535</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id255804" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id170102" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id714366</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="game.attributes.id530197" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id788974" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">010</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id555114" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">lock</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id515856" prototype="id123927">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">480</real>
+              <real id="height">320</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">corrediza0001</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id414955" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Movimiento de Puertas abrir</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id316241" class="AnimateBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Animate</text>
+                    <text id="bundleName">Animate.behavior</text>
+                    <text id="images">corrediza0010	corrediza0011	corrediza0012	corrediza0013	corrediza0014	corrediza0015</text>
+                    <index id="speed">28</index>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="restoreActorImage">false</boolean>
+                  </attributes>
+                </behavior>
+                <behavior id="id807239" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">0.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id670927" class="DestroyAction" enabled="true">
+                      <attributes>
+                        <text id="name">Destroy</text>
+                        <text id="bundleName">Destroy.behavior</text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">SVolcano</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">480</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">425.25</real>
+        <real id="height">313.6171875</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>

@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id976768">
+  <layers>
+    <layer id="id901777">
+      <actors>
+        <actor id="id170464" prototype="id336849">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">230</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">42</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id546326" name="div">1000</integer>
+            <image id="image">0</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id280369" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id495472" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> )/(</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> /10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id581510" prototype="id336849">
+          <attributes>
+            <point id="position">
+              <real id="x">175.875</real>
+              <real id="y">230</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">42</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id546326" name="div">100000</integer>
+            <image id="image">0</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id968177" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id495472" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> )/(</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> /10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id485172" prototype="id336849">
+          <attributes>
+            <point id="position">
+              <real id="x">208</real>
+              <real id="y">230</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">42</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id546326" name="div">10000</integer>
+            <image id="image">0</image>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id329245" prototype="id336849">
+          <attributes>
+            <point id="position">
+              <real id="x">272</real>
+              <real id="y">230</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">42</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id546326" name="div">100</integer>
+            <image id="image">0</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id957660" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id495472" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> )/(</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> /10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id452354" prototype="id336849">
+          <attributes>
+            <point id="position">
+              <real id="x">303.424657534247</real>
+              <real id="y">230</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">42</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">0</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id751073" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.image</text>
+                <text id="RHS">
+                  <expression>
+                    <string>floor((</string>
+                    <reference keypath="game.attributes.id495472" />
+                    <string>%</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> )/(</string>
+                    <reference keypath="self.attributes.id546326" />
+                    <string> /10))..".png"</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id277525" prototype="id738926">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">134.967948717949</real>
+            </point>
+            <size id="size">
+              <real id="width">156.221757322176</real>
+              <real id="height">140.935897435897</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.956862745098039</real>
+              <real id="green">0.92156862745098</real>
+              <real id="blue">0.92156862745098</real>
+              <real id="alpha">1</real>
+            </color>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id150180" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Validacion de Tabla de Medallas </text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id675803" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua si es menor a rango 1</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id906362" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&lt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, </string>
+                              <string>1</string>
+                              <string>, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id645638" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">No has alcanzado el objetivo LOL</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">0.0274509803921569</real>
+                          <real id="green">0.2</real>
+                          <real id="blue">0.972549019607843</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id140408" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua rangos 1 y 2</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id533792" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 1, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id233110" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&lt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 2, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id109587" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">Tu medalla es bronce</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">0.886274509803922</real>
+                          <real id="green">0.674509803921569</real>
+                          <real id="blue">0.12156862745098</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id380699" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id141233</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.attributes.id141233" />
+                            <string>+1</string>
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id794470" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua rangos 2 y 3</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id390415" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 2, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id186528" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&lt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 3, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id469399" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">Tu medalla es plata</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">0.780392156862745</real>
+                          <real id="green">0.431372549019608</real>
+                          <real id="blue">0.941176470588235</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id631686" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id141233</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.attributes.id141233" />
+                            <string>+2</string>
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id268163" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua rangos 3 y mas</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id292021" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, </string>
+                              <string>3</string>
+                              <string>, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id927603" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">Tu medalla es ORO gratz!</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">1</real>
+                          <real id="green">0.964705882352941</real>
+                          <real id="blue">0.0509803921568627</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id356596" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id141233</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.attributes.id141233" />
+                            <string>+3</string>
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id682978" prototype="id916745">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">285</real>
+            </point>
+            <size id="size">
+              <real id="width">367</real>
+              <real id="height">60</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id738768" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Validacion de Tabla de Medallas </text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id107828" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua si es menor a rango 1</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id228321" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&lt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 1, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id668796" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">LASTIMA MARGARITO</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">0.0274509803921569</real>
+                          <real id="green">0.2</real>
+                          <real id="blue">0.972549019607843</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id921393" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua rangos 1 y 2</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id810874" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 1, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id920786" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&lt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 2, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id310973" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute: cambiar numero de medalla Aqui se vuelve 1 para bronce</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id141233</text>
+                        <text id="RHS">1</text>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id113139" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">A PENAS Y LA LIBRASTE</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">0</real>
+                          <real id="green">0</real>
+                          <real id="blue">0</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id843140" class="ChangeTableValueAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Table Value: cambiar valor en level 1</text>
+                        <text id="bundleName">ChangeTableValue.behavior</text>
+                        <text id="tableID">id678078</text>
+                        <text id="rowNumber">1</text>
+                        <array id="assignments">
+                          <tablecolumnassignment id="id493792">
+                            <text id="column" name="column">
+                              <expression>
+                                <reference keypath="game.attributes.id641040" />
+                              </expression>
+                            </text>
+                            <text id="rhsvalue" name="rhsvalue">
+                              <expression>
+                                <reference keypath="game.attributes.id141233" />
+                              </expression>
+                            </text>
+                          </tablecolumnassignment>
+                        </array>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id579863" class="SaveTableAction" enabled="true">
+                      <attributes>
+                        <text id="name">Save Table: Guardar tabla en cada cambio</text>
+                        <text id="bundleName">SaveTable.behavior</text>
+                        <text id="tableID">id678078</text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id635823" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua rangos 2 y 3</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id488783" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 2, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                    <condition id="id846836" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&lt;=</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 3, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id170428" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">YA PARECES DEL EQUIPO LEGION</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">0</real>
+                          <real id="green">0</real>
+                          <real id="blue">0</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id355888" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Rule: evalua rangos 3 y mas</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id751219" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">game.attributes.id495472</text>
+                        <text id="name">default name</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">&gt;</text>
+                          <real id="RHS">
+                            <expression>
+                              <string>tableCellValue(</string>
+                              <reference keypath="game.attributes.id967673" />
+                              <string>, 3, </string>
+                              <reference keypath="game.attributes.id641040" />
+                              <string>)</string>
+                            </expression>
+                          </real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id531283" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute: cambiar medalla a 3</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id141233</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="game.attributes.id141233" />
+                            <string>+3</string>
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id791403" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">COMO UN LEGIONARIO</text>
+                        <text id="font">Arial</text>
+                        <real id="size">30</real>
+                        <index id="alignment">1</index>
+                        <boolean id="wrap">false</boolean>
+                        <color id="color">
+                          <real id="red">0.0235294117647059</real>
+                          <real id="green">0.0196078431372549</real>
+                          <real id="blue">0</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id378122" class="ChangeTableValueAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Table Value: cambiar atributo a 3 para oro</text>
+                        <text id="bundleName">ChangeTableValue.behavior</text>
+                        <text id="tableID">id678078</text>
+                        <text id="rowNumber">1</text>
+                        <array id="assignments">
+                          <tablecolumnassignment id="id841806">
+                            <text id="column" name="column">
+                              <expression>
+                                <reference keypath="game.attributes.id641040" />
+                              </expression>
+                            </text>
+                            <text id="rhsvalue" name="rhsvalue">
+                              <expression>
+                                <reference keypath="game.attributes.id141233" />
+                              </expression>
+                            </text>
+                          </tablecolumnassignment>
+                        </array>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id549835" class="SaveTableAction" enabled="true">
+                      <attributes>
+                        <text id="name">Save Table</text>
+                        <text id="bundleName">SaveTable.behavior</text>
+                        <text id="tableID">id678078</text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Game Over</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0.00392156862745098</real>
+      <real id="green">0.207843137254902</real>
+      <real id="blue">0.274509803921569</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">480</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">366.75</real>
+        <real id="height">237.9375</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>

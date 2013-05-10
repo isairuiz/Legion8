@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id551418">
+  <layers>
+    <layer id="id769876">
+      <actors>
+        <actor id="id762741" prototype="id699601">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">162</real>
+            </point>
+            <size id="size">
+              <real id="width">481</real>
+              <real id="height">325</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">fondopersonajes</image>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id760876" prototype="id401322">
+          <attributes>
+            <point id="position">
+              <real id="x">81.5</real>
+              <real id="y">35</real>
+            </point>
+            <size id="size">
+              <real id="width">77</real>
+              <real id="height">36</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id780498" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Regreso a Menu Principal con Eefecto</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id482274" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id283172" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">0.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id714030" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id158535</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">240</real>
+                        <real id="y">160</real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">2</index>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id288533" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">0.3</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id959414" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id122014</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id398637" prototype="id872427">
+          <attributes>
+            <point id="position">
+              <real id="x">398.5</real>
+              <real id="y">35</real>
+            </point>
+            <size id="size">
+              <real id="width">77</real>
+              <real id="height">36</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id898367" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id198199" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id652034" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Puertas Solas Cerrar</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">0.5</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id706687" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id158535</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">240</real>
+                        <real id="y">160</real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">2</index>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id800071" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">1</index>
+                        <real id="interval">0.3</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                      <behaviors>
+                        <behavior id="id441243" class="ChangeSceneAction" enabled="true">
+                          <attributes>
+                            <text id="name">Change Scene</text>
+                            <text id="bundleName">ChangeScene.behavior</text>
+                            <text id="sceneKey">id991749</text>
+                            <boolean id="enableAdvertisement">false</boolean>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id747710" prototype="id925802">
+          <attributes>
+            <point id="position">
+              <real id="x">376</real>
+              <real id="y">122</real>
+            </point>
+            <size id="size">
+              <real id="width">152</real>
+              <real id="height">74</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">Oceania</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id917383" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">oceania1-01	oceania2-01	oceania3-01</text>
+                <index id="speed">12</index>
+                <boolean id="loop">true</boolean>
+                <boolean id="restoreActorImage">true</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id809202" prototype="id357952">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">230</real>
+            </point>
+            <size id="size">
+              <real id="width">59</real>
+              <real id="height">22</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">oceania-01</image>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <enumeration id="blendingMode">0</enumeration>
+                <enumeration id="horizontalWrap">0</enumeration>
+                <enumeration id="verticalAnchor">1</enumeration>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id930362" prototype="id525431">
+          <attributes>
+            <point id="position">
+              <real id="x">80</real>
+              <real id="y">127</real>
+            </point>
+            <size id="size">
+              <real id="width">71</real>
+              <real id="height">101</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">P_oceania</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id880204" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">P_oceania	P_oceania	P_oceania	P_oceania	P_oceania	P_oceania	P_oceania	P_oceania	P_oceania2	P_oceania2</text>
+                <index id="speed">10</index>
+                <boolean id="loop">true</boolean>
+                <boolean id="restoreActorImage">true</boolean>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id449328" prototype="id123927">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">480</real>
+              <real id="height">320</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">corrediza0001</image>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id537844" class="CompoundBehavior" enabled="true">
+              <attributes>
+                <text id="name">Movimiento de Puertas abrir</text>
+                <text id="bundleName">Group.behavior</text>
+              </attributes>
+              <behaviors>
+                <behavior id="id589726" class="AnimateBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Animate</text>
+                    <text id="bundleName">Animate.behavior</text>
+                    <text id="images">corrediza0010	corrediza0011	corrediza0012	corrediza0013	corrediza0014	corrediza0015</text>
+                    <index id="speed">28</index>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="restoreActorImage">false</boolean>
+                  </attributes>
+                </behavior>
+                <behavior id="id430541" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">0.3</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id714431" class="DestroyAction" enabled="true">
+                      <attributes>
+                        <text id="name">Destroy</text>
+                        <text id="bundleName">Destroy.behavior</text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">false</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">P_Oceania</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">480</real>
+      <real id="height">322</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0.00392156862745098</real>
+      <real id="green">0.207843137254902</real>
+      <real id="blue">0.274509803921569</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">480</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">440.41796875</real>
+        <real id="height">320</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>

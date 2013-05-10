@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info PGFVersion="0.19" GSCVersion="0.10.0">
+  <Type>Action</Type>
+  <Interface>ChangeVelocityAction</Interface>
+  <ControllerClass>GSBehaviorViewController</ControllerClass>
+  <DisplayName>Movimiento aleatorio</DisplayName>
+  <ToolTip>Change an actor's velocity</ToolTip>
+  <DisplayIndex>0</DisplayIndex>
+</info>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id435785" class="CompoundBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Group: Spawn the Touch actors</text>
+    <text id="bundleName">Group.behavior</text>
+  </attributes>
+  <behaviors>
+    <behavior id="id118094" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Actor - Touch Detector 1</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id373731</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">0</real>
+        <real id="y">0</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id412822" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Actor - Touch Detector 2</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id991164</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">0</real>
+        <real id="y">0</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id502864" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Actor - Touch Detector 3</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id342506</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">0</real>
+        <real id="y">0</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id673758" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Actor - Touch Detector 4</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id468561</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">0</real>
+        <real id="y">0</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+    <behavior id="id249862" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Actor - Touch Detector 5</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id340806</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">0</index>
+        <real id="x">0</real>
+        <real id="y">0</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">0</index>
+      </attributes>
+    </behavior>
+  </behaviors>
+</behavior>

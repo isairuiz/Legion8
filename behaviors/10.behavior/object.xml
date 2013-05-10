@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id537879" class="TimerBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Puertas Solas Cerrar</text>
+    <text id="bundleName">Timer.behavior</text>
+    <index id="timerType">1</index>
+    <real id="interval">0.5</real>
+    <boolean id="runToCompletion">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id719401" class="SpawnAction" enabled="true">
+      <attributes>
+        <text id="name">Spawn Actor</text>
+        <text id="bundleName">Spawn.behavior</text>
+        <text id="prototypeKey">id158535</text>
+        <angle id="direction">0</angle>
+        <index id="directionSpace">1</index>
+        <real id="x">240</real>
+        <real id="y">160</real>
+        <index id="positionSpace">1</index>
+        <index id="layerOrder">2</index>
+      </attributes>
+    </behavior>
+    <behavior id="id298195" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">0.3</real>
+        <boolean id="runToCompletion">true</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id738144" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id991749</text>
+            <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+</behavior>

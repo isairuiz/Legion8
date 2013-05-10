@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id727483" class="CompoundBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Analog Style Movement Control Based on Thumbstick 1 Logic</text>
+    <text id="bundleName">Group.behavior</text>
+  </attributes>
+  <behaviors>
+    <behavior id="id307975" class="MoveBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move</text>
+        <text id="bundleName">Move.behavior</text>
+        <angle id="direction">
+          <expression>
+            <reference keypath="game.attributes.id343851" />
+          </expression>
+        </angle>
+        <index id="space">0</index>
+        <index id="moveType">0</index>
+        <real id="speed">
+          <expression>
+            <reference keypath="self.attributes.id984477" />
+            <string>*</string>
+            <reference keypath="game.attributes.id737732" />
+            <string>/</string>
+            <reference keypath="game.attributes.id627103" />
+          </expression>
+        </real>
+        <boolean id="haltWhenBehaviorStops">true</boolean>
+      </attributes>
+    </behavior>
+  </behaviors>
+</behavior>

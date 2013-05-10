@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id186259" class="CompoundBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Group: Control Data- Angle and Distance from Center of the Corresponding Base</text>
+    <text id="bundleName">Group.behavior</text>
+  </attributes>
+  <behaviors>
+    <behavior id="id425451" class="ConstrainAttributeBehavior" enabled="true">
+      <attributes>
+        <text id="name">Constrain Attribute</text>
+        <text id="bundleName">ConstrainAttribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id343851</text>
+        <text id="RHS">
+          <expression>
+            <string>vectorToAngle(</string>
+            <reference keypath="self.attributes.position.x" />
+            <string>-</string>
+            <reference keypath="game.attributes.id699995" />
+            <string>,</string>
+            <reference keypath="self.attributes.position.y" />
+            <string>-</string>
+            <reference keypath="game.attributes.id628099" />
+            <string>)</string>
+          </expression>
+        </text>
+      </attributes>
+    </behavior>
+    <behavior id="id724993" class="ConstrainAttributeBehavior" enabled="true">
+      <attributes>
+        <text id="name">Constrain Attribute</text>
+        <text id="bundleName">ConstrainAttribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id737732</text>
+        <text id="RHS">
+          <expression>
+            <string>magnitude(</string>
+            <reference keypath="self.attributes.position.x" />
+            <string>-</string>
+            <reference keypath="game.attributes.id699995" />
+            <string>,</string>
+            <reference keypath="self.attributes.position.y" />
+            <string>-</string>
+            <reference keypath="game.attributes.id628099" />
+            <string>)</string>
+          </expression>
+        </text>
+      </attributes>
+    </behavior>
+  </behaviors>
+</behavior>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info PGFVersion="0.19" GSCVersion="0.10.0">
+  <Type>Block</Type>
+  <Interface>CompoundBehavior</Interface>
+  <ControllerClass>GSGroupBehaviorViewController</ControllerClass>
+  <DisplayName>Group: Spawn the Touch actors</DisplayName>
+  <ToolTip>Group behaviors together</ToolTip>
+  <DisplayIndex>0</DisplayIndex>
+</info>

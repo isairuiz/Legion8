@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info PGFVersion="0.19" GSCVersion="0.10.0">
+  <Type>Block</Type>
+  <Interface>TimerBehavior</Interface>
+  <ControllerClass>GSGroupBehaviorViewController</ControllerClass>
+  <DisplayName>Timer</DisplayName>
+  <ToolTip>Activate some behaviors at certain times</ToolTip>
+  <DisplayIndex>0</DisplayIndex>
+</info>

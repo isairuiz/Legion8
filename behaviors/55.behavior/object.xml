@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id124577" class="TimerBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Timer</text>
+    <text id="bundleName">Timer.behavior</text>
+    <index id="timerType">0</index>
+    <real id="interval">1</real>
+    <boolean id="runToCompletion">false</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id837588" class="InterpolateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Interpolate</text>
+        <text id="bundleName">Interpolate.behavior</text>
+        <boolean id="runToCompletion">true</boolean>
+        <text id="targetAttribute">game.attributes.id495472</text>
+        <real id="finalValue">
+          <expression>
+            <reference keypath="game.attributes.id495472" />
+          </expression>
+        </real>
+        <real id="duration">0.5</real>
+        <index id="easing">0</index>
+      </attributes>
+    </behavior>
+  </behaviors>
+</behavior>

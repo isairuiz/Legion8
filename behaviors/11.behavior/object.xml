@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id625379" class="CompoundBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Cargar Datos</text>
+    <text id="bundleName">Group.behavior</text>
+  </attributes>
+  <behaviors>
+    <behavior id="id208462" class="LoadAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Load Attribute</text>
+        <text id="bundleName">LoadAtribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id141233</text>
+        <text id="key">
+          <expression>
+            <reference keypath="game.attributes.id141233" />
+          </expression>
+        </text>
+      </attributes>
+    </behavior>
+    <behavior id="id849428" class="LoadAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Load Attribute</text>
+        <text id="bundleName">LoadAtribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id530197</text>
+        <text id="key">
+          <expression>
+            <reference keypath="game.attributes.id530197" />
+          </expression>
+        </text>
+      </attributes>
+    </behavior>
+  </behaviors>
+</behavior>

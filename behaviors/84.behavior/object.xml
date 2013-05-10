@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id391461" class="RuleBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Rule - Toggle Visibility Based on Global Visibility Setting</text>
+    <text id="bundleName">Rule.behavior</text>
+    <real id="compoundConditionKind">0</real>
+  </attributes>
+  <conditions>
+    <condition id="id722968" eventType="mouse button" pluginPredicateTypeIndex="0">
+      <attributes>
+        <index id="conditionType">1</index>
+        <text id="subjectAttribute">game.attributes.id700593</text>
+      </attributes>
+      <predicate type="boolean">
+        <attributes>
+          <index id="RHS">1</index>
+        </attributes>
+      </predicate>
+    </condition>
+  </conditions>
+  <behaviors>
+    <behavior id="id425757" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute - Set Opacity to 100%</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.color.alpha</text>
+        <text id="RHS">1</text>
+      </attributes>
+    </behavior>
+  </behaviors>
+  <elseBehaviors>
+    <behavior id="id924113" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute - Set Opacity to 0%</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.color.alpha</text>
+        <text id="RHS">0</text>
+      </attributes>
+    </behavior>
+  </elseBehaviors>
+</behavior>

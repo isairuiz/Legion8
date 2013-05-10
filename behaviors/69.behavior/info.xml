@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info PGFVersion="0.19" GSCVersion="0.10.0">
+  <Type>Action</Type>
+  <Interface>ChangeAttributeAction</Interface>
+  <ControllerClass>GSBehaviorViewController</ControllerClass>
+  <DisplayName>Change Attribute - Set Game Logic for Thumbstick 1 Base Radius</DisplayName>
+  <ToolTip>Assign a value to an attribute</ToolTip>
+  <DisplayIndex>0</DisplayIndex>
+</info>

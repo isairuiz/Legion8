@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id103190" class="ChangeVelocityAction" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Movimiento aleatorio</text>
+    <text id="bundleName">ChangeVelocity.behavior</text>
+    <angle id="direction">56.3099</angle>
+    <index id="space">1</index>
+    <real id="speed">200</real>
+  </attributes>
+</behavior>

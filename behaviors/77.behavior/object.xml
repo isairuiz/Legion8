@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id281863" class="RuleBehavior" enabled="true" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Rule: 4 Reset the corresponding touch position values</text>
+    <text id="bundleName">Rule.behavior</text>
+    <real id="compoundConditionKind">0</real>
+  </attributes>
+  <conditions>
+    <condition id="id925770" eventType="mouse button" pluginPredicateTypeIndex="0">
+      <attributes>
+        <index id="conditionType">1</index>
+        <text id="subjectAttribute">self.attributes.id512611</text>
+      </attributes>
+      <predicate type="boolean">
+        <attributes>
+          <index id="RHS">1</index>
+        </attributes>
+      </predicate>
+    </condition>
+  </conditions>
+  <behaviors>
+    <behavior id="id673386" class="CompoundBehavior" enabled="true">
+      <attributes>
+        <text id="name">Group: Reset Position</text>
+        <text id="bundleName">Group.behavior</text>
+      </attributes>
+      <behaviors>
+        <behavior id="id127761" class="NoteBehavior" enabled="true">
+          <attributes>
+            <text id="name">Note</text>
+            <text id="bundleName">Note.behavior</text>
+            <text id="note">This sets the corresponding touch to a position outside of the available touch area
+</text>
+          </attributes>
+        </behavior>
+        <behavior id="id695146" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.devices.touches.touch4.x</text>
+            <text id="RHS">-100</text>
+          </attributes>
+        </behavior>
+        <behavior id="id641868" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.devices.touches.touch4.y</text>
+            <text id="RHS">420</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id368835" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.id512611</text>
+        <text id="RHS">false</text>
+      </attributes>
+    </behavior>
+  </behaviors>
+</behavior>

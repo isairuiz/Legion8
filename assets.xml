@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.0">
+  <sounds>
+    <sound name="nave">
+      <file name="nave.ogg" size="25896" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="boom00">
+      <file name="boom00.png" size="958" />
+    </image>
+    <image name="boom01">
+      <file name="boom01.png" size="5836" />
+    </image>
+    <image name="boom02">
+      <file name="boom02.png" size="11539" />
+    </image>
+    <image name="boom03">
+      <file name="boom03.png" size="19201" />
+    </image>
+    <image name="boom04">
+      <file name="boom04.png" size="25254" />
+    </image>
+    <image name="boom05">
+      <file name="boom05.png" size="26315" />
+    </image>
+    <image name="boom06">
+      <file name="boom06.png" size="27048" />
+    </image>
+    <image name="boom07">
+      <file name="boom07.png" size="27611" />
+    </image>
+    <image name="boom08">
+      <file name="boom08.png" size="27808" />
+    </image>
+    <image name="boom09">
+      <file name="boom09.png" size="27694" />
+    </image>
+    <image name="boom10">
+      <file name="boom10.png" size="27047" />
+    </image>
+    <image name="boom11">
+      <file name="boom11.png" size="26671" />
+    </image>
+    <image name="boom12">
+      <file name="boom12.png" size="24467" />
+    </image>
+    <image name="boom13">
+      <file name="boom13.png" size="23050" />
+    </image>
+    <image name="boom14">
+      <file name="boom14.png" size="20299" />
+    </image>
+    <image name="boom15">
+      <file name="boom15.png" size="19334" />
+    </image>
+    <image name="boom16">
+      <file name="boom16.png" size="17491" />
+    </image>
+    <image name="explosion0001">
+      <file name="explosion0001.png" size="328" />
+    </image>
+    <image name="explosion0003">
+      <file name="explosion0003.png" size="326" />
+    </image>
+    <image name="explosion0009">
+      <file name="explosion0009.png" size="362" />
+    </image>
+    <image name="explosion0012">
+      <file name="explosion0012.png" size="391" />
+    </image>
+    <image name="explosion0015">
+      <file name="explosion0015.png" size="498" />
+    </image>
+    <image name="explosion0018">
+      <file name="explosion0018.png" size="496" />
+    </image>
+    <image name="explosion0030">
+      <file name="explosion0030.png" size="80" />
+    </image>
+    <image name="estalactitas">
+      <file name="estalactitas.png" size="2104" />
+    </image>
+    <image name="Mont 1">
+      <file name="Mont 1.png" size="2240" />
+    </image>
+    <image name="Mont 2">
+      <file name="Mont 2.png" size="2075" />
+    </image>
+    <image name="Mont 3">
+      <file name="Mont 3.png" size="3609" />
+    </image>
+    <image name="obstaculoarriba">
+      <file name="obstaculoarriba.png" size="6705" />
+    </image>
+    <image name="edna1">
+      <file name="edna1.png" size="2329" />
+    </image>
+    <image name="edna2">
+      <file name="edna2.png" size="2423" />
+    </image>
+    <image name="edna3">
+      <file name="edna3.png" size="2608" />
+    </image>
+    <image name="edna4">
+      <file name="edna4.png" size="2713" />
+    </image>
+    <image name="edna5">
+      <file name="edna5.png" size="2608" />
+    </image>
+    <image name="edna6">
+      <file name="edna6.png" size="2423" />
+    </image>
+    <image name="NAVEROJA0001">
+      <file name="NAVEROJA0001.png" size="8074" />
+    </image>
+    <image name="NAVEROJA0002">
+      <file name="NAVEROJA0002.png" size="8034" />
+    </image>
+    <image name="NAVEROJA0003">
+      <file name="NAVEROJA0003.png" size="8012" />
+    </image>
+    <image name="ruleta0001">
+      <file name="ruleta0001.png" size="17770" />
+    </image>
+    <image name="ruleta0002">
+      <file name="ruleta0002.png" size="20313" />
+    </image>
+    <image name="ruleta0003">
+      <file name="ruleta0003.png" size="20160" />
+    </image>
+    <image name="ruleta0004">
+      <file name="ruleta0004.png" size="18241" />
+    </image>
+    <image name="ruleta0005">
+      <file name="ruleta0005.png" size="20315" />
+    </image>
+    <image name="ruleta0006">
+      <file name="ruleta0006.png" size="20316" />
+    </image>
+    <image name="LOGO braseva">
+      <file name="LOGO braseva.png" size="14748" />
+    </image>
+    <image name="balachikita">
+      <file name="balachikita.png" size="282" />
+    </image>
+    <image name="misil0001">
+      <file name="misil0001.png" size="432" />
+    </image>
+    <image name="misil0002">
+      <file name="misil0002.png" size="456" />
+    </image>
+    <image name="misil0003">
+      <file name="misil0003.png" size="432" />
+    </image>
+    <image name="misil0004">
+      <file name="misil0004.png" size="478" />
+    </image>
+    <image name="lasserkron0001">
+      <file name="lasserkron0001.png" size="3093" />
+    </image>
+    <image name="lasserkron0002">
+      <file name="lasserkron0002.png" size="3066" />
+    </image>
+    <image name="lasserkron0003">
+      <file name="lasserkron0003.png" size="3011" />
+    </image>
+    <image name="lasserkron0004">
+      <file name="lasserkron0004.png" size="2852" />
+    </image>
+    <image name="lasserkron0005">
+      <file name="lasserkron0005.png" size="2689" />
+    </image>
+    <image name="lasserkron0006">
+      <file name="lasserkron0006.png" size="2831" />
+    </image>
+    <image name="lasserkron0007">
+      <file name="lasserkron0007.png" size="2932" />
+    </image>
+    <image name="lasserkron0008">
+      <file name="lasserkron0008.png" size="3066" />
+    </image>
+    <image name="lasserkron0009">
+      <file name="lasserkron0009.png" size="3068" />
+    </image>
+    <image name="lasserkron0010">
+      <file name="lasserkron0010.png" size="3109" />
+    </image>
+    <image name="tramas">
+      <file name="tramas.png" size="2416" />
+    </image>
+    <image name="help">
+      <file name="help.png" size="5347" />
+    </image>
+    <image name="play">
+      <file name="play.png" size="8115" />
+    </image>
+    <image name="ranking">
+      <file name="ranking.png" size="6944" />
+    </image>
+    <image name="setup">
+      <file name="setup.png" size="6697" />
+    </image>
+    <image name="logolegion">
+      <file name="logolegion.png" size="22355" />
+    </image>
+    <image name="pantallajugador">
+      <file name="pantallajugador.png" size="52780" />
+    </image>
+    <image name="FROSTYNOMBRE">
+      <file name="FROSTYNOMBRE.png" size="1186" />
+    </image>
+    <image name="GELATONOMBRE">
+      <file name="GELATONOMBRE.png" size="1077" />
+    </image>
+    <image name="KRONNOMBRE">
+      <file name="KRONNOMBRE.png" size="866" />
+    </image>
+    <image name="ROMDADNOMBRE">
+      <file name="ROMDADNOMBRE.png" size="1165" />
+    </image>
+    <image name="VOLCANONOMBRE">
+      <file name="VOLCANONOMBRE.png" size="1340" />
+    </image>
+    <image name="estelita">
+      <file name="estelita.png" size="462" />
+    </image>
+    <image name="off">
+      <file name="off.png" size="1944" />
+    </image>
+    <image name="onn">
+      <file name="onn.png" size="1996" />
+    </image>
+    <image name="frosty2">
+      <file name="frosty2.png" size="34965" />
+    </image>
+    <image name="geletato2">
+      <file name="geletato2.png" size="35266" />
+    </image>
+    <image name="kron2">
+      <file name="kron2.png" size="34449" />
+    </image>
+    <image name="volcano2">
+      <file name="volcano2.png" size="38715" />
+    </image>
+    <image name="zogra2">
+      <file name="zogra2.png" size="47039" />
+    </image>
+    <image name="lock">
+      <file name="lock.png" size="940" />
+    </image>
+    <image name="balaaviso">
+      <file name="balaaviso.png" size="216" />
+    </image>
+    <image name="misilaviso">
+      <file name="misilaviso.png" size="387" />
+    </image>
+    <image name="pausaaviso">
+      <file name="pausaaviso.png" size="142" />
+    </image>
+    <image name="vidas">
+      <file name="vidas.png" size="959" />
+    </image>
+    <image name="corrediza0001">
+      <file name="corrediza0001.png" size="846" />
+    </image>
+    <image name="corrediza0002">
+      <file name="corrediza0002.png" size="6632" />
+    </image>
+    <image name="corrediza0003">
+      <file name="corrediza0003.png" size="13137" />
+    </image>
+    <image name="corrediza0004">
+      <file name="corrediza0004.png" size="20125" />
+    </image>
+    <image name="corrediza0005">
+      <file name="corrediza0005.png" size="25711" />
+    </image>
+    <image name="corrediza0006">
+      <file name="corrediza0006.png" size="30121" />
+    </image>
+    <image name="corrediza0007">
+      <file name="corrediza0007.png" size="34701" />
+    </image>
+    <image name="corrediza0008">
+      <file name="corrediza0008.png" size="43640" />
+    </image>
+    <image name="corrediza0009">
+      <file name="corrediza0009.png" size="43500" />
+    </image>
+    <image name="corrediza0010">
+      <file name="corrediza0010.png" size="44517" />
+    </image>
+    <image name="corrediza0011">
+      <file name="corrediza0011.png" size="31371" />
+    </image>
+    <image name="corrediza0012">
+      <file name="corrediza0012.png" size="24729" />
+    </image>
+    <image name="corrediza0013">
+      <file name="corrediza0013.png" size="19099" />
+    </image>
+    <image name="corrediza0014">
+      <file name="corrediza0014.png" size="8634" />
+    </image>
+    <image name="corrediza0015">
+      <file name="corrediza0015.png" size="839" />
+    </image>
+    <image name="btnback-01">
+      <file name="btnback-01.png" size="2521" />
+    </image>
+    <image name="btnplay-01">
+      <file name="btnplay-01.png" size="2551" />
+    </image>
+    <image name="fondopersonajes">
+      <file name="fondopersonajes.png" size="40552" />
+    </image>
+    <image name="africa-01">
+      <file name="africa-01.png" size="2538" />
+    </image>
+    <image name="america-01">
+      <file name="america-01.png" size="2865" />
+    </image>
+    <image name="asia-01">
+      <file name="asia-01.png" size="2004" />
+    </image>
+    <image name="europa-01">
+      <file name="europa-01.png" size="2597" />
+    </image>
+    <image name="oceania-01">
+      <file name="oceania-01.png" size="2884" />
+    </image>
+    <image name="Americano">
+      <file name="Americano.png" size="6608" />
+    </image>
+    <image name="Asia">
+      <file name="Asia.png" size="6795" />
+    </image>
+    <image name="Europa">
+      <file name="Europa.png" size="6558" />
+    </image>
+    <image name="P_america">
+      <file name="P_america.png" size="8674" />
+    </image>
+    <image name="P_america2">
+      <file name="P_america2.png" size="8255" />
+    </image>
+    <image name="P_chino1">
+      <file name="P_chino1.png" size="8431" />
+    </image>
+    <image name="P_chino2">
+      <file name="P_chino2.png" size="8206" />
+    </image>
+    <image name="P_europeo">
+      <file name="P_europeo.png" size="8374" />
+    </image>
+    <image name="P_europeo2">
+      <file name="P_europeo2.png" size="7921" />
+    </image>
+    <image name="P_oceania">
+      <file name="P_oceania.png" size="9841" />
+    </image>
+    <image name="P_oceania2">
+      <file name="P_oceania2.png" size="9397" />
+    </image>
+    <image name="Africa">
+      <file name="Africa.png" size="6787" />
+    </image>
+    <image name="P_africa">
+      <file name="P_africa.png" size="8885" />
+    </image>
+    <image name="P_africa2">
+      <file name="P_africa2.png" size="8570" />
+    </image>
+    <image name="0">
+      <file name="0.png" size="855" />
+    </image>
+    <image name="1">
+      <file name="1.png" size="547" />
+    </image>
+    <image name="2">
+      <file name="2.png" size="1033" />
+    </image>
+    <image name="3">
+      <file name="3.png" size="1140" />
+    </image>
+    <image name="4">
+      <file name="4.png" size="643" />
+    </image>
+    <image name="5">
+      <file name="5.png" size="957" />
+    </image>
+    <image name="6">
+      <file name="6.png" size="1087" />
+    </image>
+    <image name="7">
+      <file name="7.png" size="700" />
+    </image>
+    <image name="8">
+      <file name="8.png" size="1128" />
+    </image>
+    <image name="9">
+      <file name="9.png" size="1086" />
+    </image>
+    <image name="01">
+      <file name="01.png" size="776" />
+    </image>
+    <image name="02">
+      <file name="02.png" size="1005" />
+    </image>
+    <image name="03">
+      <file name="03.png" size="1070" />
+    </image>
+    <image name="04">
+      <file name="04.png" size="873" />
+    </image>
+    <image name="05">
+      <file name="05.png" size="894" />
+    </image>
+    <image name="06">
+      <file name="06.png" size="981" />
+    </image>
+    <image name="07">
+      <file name="07.png" size="885" />
+    </image>
+    <image name="08">
+      <file name="08.png" size="1033" />
+    </image>
+    <image name="09">
+      <file name="09.png" size="1011" />
+    </image>
+    <image name="010">
+      <file name="010.png" size="1108" />
+    </image>
+    <image name="BOCINAOF-01">
+      <file name="BOCINAOF-01.png" size="757" />
+    </image>
+    <image name="FondoPausa">
+      <file name="FondoPausa.png" size="11613" />
+    </image>
+    <image name="MUSICA-01">
+      <file name="MUSICA-01.png" size="691" />
+    </image>
+    <image name="MUSICAOFF-01">
+      <file name="MUSICAOFF-01.png" size="827" />
+    </image>
+    <image name="QUIT-01">
+      <file name="QUIT-01.png" size="1359" />
+    </image>
+    <image name="RESUME-01">
+      <file name="RESUME-01.png" size="2273" />
+    </image>
+    <image name="RETRY-01">
+      <file name="RETRY-01.png" size="1846" />
+    </image>
+    <image name="01BRONCE">
+      <file name="01BRONCE.png" size="548" />
+    </image>
+    <image name="01ORO">
+      <file name="01ORO.png" size="533" />
+    </image>
+    <image name="01PLATA">
+      <file name="01PLATA.png" size="516" />
+    </image>
+    <image name="fondo planetas">
+      <file name="fondo planetas.png" size="168613" />
+    </image>
+    <image name="480x320">
+      <file name="480x320.png" size="164875" />
+    </image>
+    <image name="Volcano 2">
+      <file name="Volcano 2.png" size="120927" />
+    </image>
+    <image name="Volcano 3">
+      <file name="Volcano 3.png" size="129146" />
+    </image>
+    <image name="a0001">
+      <file name="a0001.png" size="1227" />
+    </image>
+    <image name="a0002">
+      <file name="a0002.png" size="1237" />
+    </image>
+    <image name="a0003">
+      <file name="a0003.png" size="1208" />
+    </image>
+    <image name="a0004">
+      <file name="a0004.png" size="1230" />
+    </image>
+    <image name="a0005">
+      <file name="a0005.png" size="1245" />
+    </image>
+    <image name="a0006">
+      <file name="a0006.png" size="1229" />
+    </image>
+    <image name="a0007">
+      <file name="a0007.png" size="1200" />
+    </image>
+    <image name="a0008">
+      <file name="a0008.png" size="1224" />
+    </image>
+    <image name="a0009">
+      <file name="a0009.png" size="1261" />
+    </image>
+    <image name="a0010">
+      <file name="a0010.png" size="1262" />
+    </image>
+    <image name="a0011">
+      <file name="a0011.png" size="1226" />
+    </image>
+    <image name="a0012">
+      <file name="a0012.png" size="1236" />
+    </image>
+    <image name="a0013">
+      <file name="a0013.png" size="1248" />
+    </image>
+    <image name="a0014">
+      <file name="a0014.png" size="1226" />
+    </image>
+    <image name="a0015">
+      <file name="a0015.png" size="1238" />
+    </image>
+    <image name="a0016">
+      <file name="a0016.png" size="1252" />
+    </image>
+    <image name="a0017">
+      <file name="a0017.png" size="1236" />
+    </image>
+    <image name="a0018">
+      <file name="a0018.png" size="1241" />
+    </image>
+    <image name="a0019">
+      <file name="a0019.png" size="1239" />
+    </image>
+    <image name="a0020">
+      <file name="a0020.png" size="1212" />
+    </image>
+    <image name="Av_asia1">
+      <file name="Av_asia1.png" size="8177" />
+    </image>
+    <image name="Av_asia2">
+      <file name="Av_asia2.png" size="8152" />
+    </image>
+    <image name="Av_asia3">
+      <file name="Av_asia3.png" size="8122" />
+    </image>
+    <image name="Av_africa1">
+      <file name="Av_africa1.png" size="8324" />
+    </image>
+    <image name="Av_africa2">
+      <file name="Av_africa2.png" size="8291" />
+    </image>
+    <image name="Av_africa3">
+      <file name="Av_africa3.png" size="8263" />
+    </image>
+    <image name="america1">
+      <file name="america1.png" size="8353" />
+    </image>
+    <image name="america2">
+      <file name="america2.png" size="8315" />
+    </image>
+    <image name="america3">
+      <file name="america3.png" size="8264" />
+    </image>
+    <image name="Av_europeo1">
+      <file name="Av_europeo1.png" size="8166" />
+    </image>
+    <image name="Av_europeo2">
+      <file name="Av_europeo2.png" size="8112" />
+    </image>
+    <image name="Av_europeo3">
+      <file name="Av_europeo3.png" size="8082" />
+    </image>
+    <image name="Oceania">
+      <file name="Oceania.png" size="6673" />
+    </image>
+    <image name="Av_oceania1">
+      <file name="Av_oceania1.png" size="8245" />
+    </image>
+    <image name="Av_oceania2">
+      <file name="Av_oceania2.png" size="8222" />
+    </image>
+    <image name="Av_oceania3">
+      <file name="Av_oceania3.png" size="8180" />
+    </image>
+    <image name="BED 1">
+      <file name="BED 1.png" size="775" />
+    </image>
+    <image name="BED 2">
+      <file name="BED 2.png" size="760" />
+    </image>
+    <image name="BED 3">
+      <file name="BED 3.png" size="756" />
+    </image>
+    <image name="BED 4">
+      <file name="BED 4.png" size="765" />
+    </image>
+    <image name="BED 5">
+      <file name="BED 5.png" size="764" />
+    </image>
+    <image name="0bronce-01">
+      <file name="0bronce-01.png" size="662" />
+    </image>
+    <image name="0oro-01">
+      <file name="0oro-01.png" size="656" />
+    </image>
+    <image name="0plata-01">
+      <file name="0plata-01.png" size="607" />
+    </image>
+    <image name="1bronce-01">
+      <file name="1bronce-01.png" size="547" />
+    </image>
+    <image name="1oro-01">
+      <file name="1oro-01.png" size="531" />
+    </image>
+    <image name="1plata-01">
+      <file name="1plata-01.png" size="519" />
+    </image>
+    <image name="2bronce-01">
+      <file name="2bronce-01.png" size="670" />
+    </image>
+    <image name="2oro-01">
+      <file name="2oro-01.png" size="655" />
+    </image>
+    <image name="2plata-01">
+      <file name="2plata-01.png" size="606" />
+    </image>
+    <image name="3bronce-01">
+      <file name="3bronce-01.png" size="716" />
+    </image>
+    <image name="3oro-01">
+      <file name="3oro-01.png" size="697" />
+    </image>
+    <image name="3plata-01">
+      <file name="3plata-01.png" size="633" />
+    </image>
+    <image name="4bronce-01">
+      <file name="4bronce-01.png" size="615" />
+    </image>
+    <image name="4oro-01">
+      <file name="4oro-01.png" size="613" />
+    </image>
+    <image name="4plata-01">
+      <file name="4plata-01.png" size="550" />
+    </image>
+    <image name="5bronce-01">
+      <file name="5bronce-01.png" size="626" />
+    </image>
+    <image name="5oro-01">
+      <file name="5oro-01.png" size="613" />
+    </image>
+    <image name="5plata-01">
+      <file name="5plata-01.png" size="575" />
+    </image>
+    <image name="6bronce-01">
+      <file name="6bronce-01.png" size="663" />
+    </image>
+    <image name="6oro-01">
+      <file name="6oro-01.png" size="658" />
+    </image>
+    <image name="6plata-01">
+      <file name="6plata-01.png" size="601" />
+    </image>
+    <image name="7bronce-01">
+      <file name="7bronce-01.png" size="618" />
+    </image>
+    <image name="7oro-01">
+      <file name="7oro-01.png" size="612" />
+    </image>
+    <image name="7plata-01">
+      <file name="7plata-01.png" size="558" />
+    </image>
+    <image name="8bronce-01">
+      <file name="8bronce-01.png" size="664" />
+    </image>
+    <image name="8oro-01">
+      <file name="8oro-01.png" size="649" />
+    </image>
+    <image name="8plata-01">
+      <file name="8plata-01.png" size="600" />
+    </image>
+    <image name="9bronce-01">
+      <file name="9bronce-01.png" size="664" />
+    </image>
+    <image name="9oro-01">
+      <file name="9oro-01.png" size="648" />
+    </image>
+    <image name="9plata-01">
+      <file name="9plata-01.png" size="611" />
+    </image>
+    <image name="10bronce-01">
+      <file name="10bronce-01.png" size="736" />
+    </image>
+    <image name="10oro-01">
+      <file name="10oro-01.png" size="716" />
+    </image>
+    <image name="10plata-01">
+      <file name="10plata-01.png" size="646" />
+    </image>
+    <image name="asia1-01">
+      <file name="asia1-01.png" size="6487" />
+    </image>
+    <image name="asia2-01">
+      <file name="asia2-01.png" size="6454" />
+    </image>
+    <image name="asia3-01">
+      <file name="asia3-01.png" size="6420" />
+    </image>
+    <image name="oceania1-01">
+      <file name="oceania1-01.png" size="6532" />
+    </image>
+    <image name="oceania2-01">
+      <file name="oceania2-01.png" size="6505" />
+    </image>
+    <image name="oceania3-01">
+      <file name="oceania3-01.png" size="6456" />
+    </image>
+    <image name="africa1-01">
+      <file name="africa1-01.png" size="6492" />
+    </image>
+    <image name="africa2-01">
+      <file name="africa2-01.png" size="6451" />
+    </image>
+    <image name="africa3-01">
+      <file name="africa3-01.png" size="6418" />
+    </image>
+    <image name="americano1-01">
+      <file name="americano1-01.png" size="6447" />
+    </image>
+    <image name="americano2-01">
+      <file name="americano2-01.png" size="6380" />
+    </image>
+    <image name="americano3-01">
+      <file name="americano3-01.png" size="6361" />
+    </image>
+    <image name="europa1-01">
+      <file name="europa1-01.png" size="6346" />
+    </image>
+    <image name="europa2-01">
+      <file name="europa2-01.png" size="6295" />
+    </image>
+    <image name="europa3-01">
+      <file name="europa3-01.png" size="6266" />
+    </image>
+    <image name="reintentar-01">
+      <file name="reintentar-01.png" size="2067" />
+    </image>
+    <image name="siguientelevel-01">
+      <file name="siguientelevel-01.png" size="1247" />
+    </image>
+    <image name="volverlalmenu-01">
+      <file name="volverlalmenu-01.png" size="1606" />
+    </image>
+    <image name="a1">
+      <file name="a1.png" size="7678" />
+    </image>
+    <image name="a2">
+      <file name="a2.png" size="7309" />
+    </image>
+    <image name="atras">
+      <file name="atras.png" size="1496" />
+    </image>
+    <image name="atras2">
+      <file name="atras2.png" size="1482" />
+    </image>
+    <image name="down">
+      <file name="down.png" size="1502" />
+    </image>
+    <image name="down2">
+      <file name="down2.png" size="1441" />
+    </image>
+    <image name="rueda">
+      <file name="rueda.png" size="1938" />
+    </image>
+    <image name="siguiente">
+      <file name="siguiente.png" size="1489" />
+    </image>
+    <image name="siguiente2">
+      <file name="siguiente2.png" size="1483" />
+    </image>
+    <image name="up">
+      <file name="up.png" size="1547" />
+    </image>
+    <image name="up2">
+      <file name="up2.png" size="1458" />
+    </image>
+    <image name="b2-01">
+      <file name="b2-01.png" size="8110" />
+    </image>
+    <image name="ba-01">
+      <file name="ba-01.png" size="8297" />
+    </image>
+    <image name="BOCINA-01">
+      <file name="BOCINA-01.png" size="664" />
+    </image>
+    <image name="Nuevo_jostick-01">
+      <file name="Nuevo_jostick-01.png" size="6618" />
+    </image>
+    <image name="Nuevo_Jostick-02">
+      <file name="Nuevo_Jostick-02.png" size="1735" />
+    </image>
+    <image name="plecatrasnaparente">
+      <file name="plecatrasnaparente.png" size="589" />
+    </image>
+    <image name="barracotenedoradeagua">
+      <file name="barracotenedoradeagua.png" size="417" />
+    </image>
+    <image name="fuegovolcano1">
+      <file name="fuegovolcano1.png" size="2330" />
+    </image>
+    <image name="fuegovolcano2">
+      <file name="fuegovolcano2.png" size="2821" />
+    </image>
+    <image name="fuegovolcano3">
+      <file name="fuegovolcano3.png" size="2793" />
+    </image>
+    <image name="fuegovolcano4">
+      <file name="fuegovolcano4.png" size="2788" />
+    </image>
+  </images>
+  <behaviors />
+</assets>
